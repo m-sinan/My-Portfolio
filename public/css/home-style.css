@@ -4,20 +4,38 @@
 }
 .container1 {
     height: auto;
+        animation: pop-up 0.5s ease-in-out;
 }
 
 .container2 {
     height: auto;
     background: #fff;
+    animation: pop-up 1s ease-in-out;
+}
+@keyframes pop-up {
+    0% {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.container2:hover {
+    box-shadow: rgba(255, 255, 255, 0.51) 0px 4px 12px;
+    transition: all 1s ease-in-out;
 }
 .cv{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 .container3 {
     height: auto;
     width: auto;
+    animation: pop-up 1s ease-in-out;
 }
 @media  (min-width:768px){
     .container1 {
@@ -277,6 +295,7 @@
 
 .absolute {
     position: absolute;
+    
 }
 
 .inline-block {
@@ -446,6 +465,7 @@
 
      #section-about{
         display: none;
+        animation: pop-up 1s ease-in-out;
      }
 
      /* section-about */
@@ -533,6 +553,8 @@
      /* social icon */
      #section-about{
         display: none;
+        animation: pop-up 0.5s ease-in-out;
+
      }
      #section-skills{
         display: none;
