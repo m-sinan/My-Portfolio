@@ -13,15 +13,15 @@
     animation: pop-up 1s ease-in-out;
 }
 @keyframes pop-up {
-    0% {
-        transform: scale(0.9);
-        opacity: 0;
-    }
+        0% {
+            transform: scale(0.9);
+            opacity: 0;
+        }
 
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
 }
 .container2:hover {
     box-shadow: rgba(255, 255, 255, 0.51) 0px 4px 12px;
